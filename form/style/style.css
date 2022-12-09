@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.button_style, .form .item_form_button .button_blue, .form .item_form_button .button_gray {
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  width: 5rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #f6fbff;
+}
+
+.form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+  background: white;
+  padding: 2rem  3rem  2rem  3rem;
+  margin: 1rem  10%  1rem  10%;
+  -webkit-box-shadow: 0px 3px 7px 0px #cfcfcf9a;
+          box-shadow: 0px 3px 7px 0px #cfcfcf9a;
+}
+
+.form .item_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form .item_form input {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: #d2d2d2 solid 1px;
+  border-radius: 5px;
+}
+
+.form .item_form_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.form .item_form_button .button_blue {
+  background: #010182;
+}
+
+.form .item_form_button .button_gray {
+  background: #c9c9c9;
+  color: #383838;
+}
+/*# sourceMappingURL=style.css.map */
