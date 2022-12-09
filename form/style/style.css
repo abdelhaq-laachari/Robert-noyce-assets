@@ -20,6 +20,11 @@ body {
   background-color: #f6fbff;
 }
 
+.title_form {
+  text-align: center;
+  color: #0000a7;
+}
+
 .form {
   display: -ms-grid;
   display: grid;
